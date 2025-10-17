@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./app.css";
 
 function App() {
-  const firstName = "Amin"; // Change this to "" to test "Hello, there!"
+  const firstName = "GUEST"; // if you Change this to "" to test "Hello, there!"
 
   // Optional: click handler
   const handleBuy = () => {
