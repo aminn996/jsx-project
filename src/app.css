@@ -1,0 +1,62 @@
+/* src/App.css */
+body {
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  border-bottom: 2px solid #eee;
+}
+
+.card-body h4 {
+  font-weight: 600;
+  color: #2b2b2b;
+}
+
+.card-body h5 {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.card-body p {
+  color: #555;
+}
+
+.greeting {
+  color: white;
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+
+.greeting img {
+  margin-top: 10px;
+}
+button.btn-primary {
+  transition: all 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #3a4acc;
+  transform: scale(1.05);
+}
